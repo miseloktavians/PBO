@@ -1,21 +1,19 @@
-package Inheritance;
+package Contoh_Inheritance;
 
-// (Bertingkat: Menu -> Minuman -> Kopi)
-
-class Menu {
+class MenuMinuman {
     String nama;
     void tampilNama() {
         System.out.println("Menu: " + nama);
     }
 }
 
-class Minuman extends Menu {
+class MinumanDingin extends MenuMinuman {
     void ukuran() {
         System.out.println("Ukuran: Regular");
     }
 }
 
-class Kopi extends Minuman {
+class EsKopi extends MinumanDingin {
     void levelGula() {
         System.out.println("Gula: Less Sugar");
     }
@@ -23,7 +21,7 @@ class Kopi extends Minuman {
 
 public class MainMultilevel {
     public static void main(String[] args) {
-        Kopi k = new Kopi();
+        EsKopi k = new EsKopi();
         k.nama = "Kopi Susu Gula Aren";
         
         k.tampilNama(); 

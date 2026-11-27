@@ -1,4 +1,4 @@
-package Inheritance;
+package Contoh_Inheritance;
 
 //  (Gabungan Hierarchical + Multiple)
 // Gabungan extends (Hierarchical) dan implements (Multiple).

@@ -1,4 +1,4 @@
-package Inheritance;
+package Contoh_Inheritance;
 
 // (1 Anak punya 2 Induk via Interface)
 // Satu class KopiSusu ngambil sifat dari dua interface (BahanKopi dan BahanSusu).

@@ -1,4 +1,4 @@
-package Inheritance;
+package Contoh_Inheritance;
 
 // (Bercabang: 1 Induk -> 2 Anak)
 // Satu induk MenuCafe diwariskan ke dua anak (Kopi dan NonKopi).
@@ -28,7 +28,7 @@ public class MainHierarchical {
         k.infoCafe();
         k.hargaKopi();
 
-        System.out.println("---");
+        System.out.println("---------------------");
 
         NonKopi nk = new NonKopi();
         nk.infoCafe();
