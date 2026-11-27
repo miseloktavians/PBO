@@ -1,4 +1,4 @@
-package pertemuan_1.Soal.Soal_1;
+package Pertemuan_1.Soal.Soal_1;
 
 public class LuasSegitiga {
     // Fungsi

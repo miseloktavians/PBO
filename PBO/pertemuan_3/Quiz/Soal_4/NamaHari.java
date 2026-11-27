@@ -1,4 +1,4 @@
-package pertemuan_3.Quiz.Soal_4;
+package Pertemuan_3.Quiz.Soal_4;
 
 import java.util.Scanner;
 

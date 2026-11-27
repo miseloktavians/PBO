@@ -1,4 +1,4 @@
-package pertemuan_9.project;
+package Pertemuan_9.project;
 
 // ENCAPSULATION: Semua atribut dibuat "private" agar terlindungi dan hanya diakses lewat Getter
 public class Member {

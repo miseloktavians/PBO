@@ -1,4 +1,4 @@
-package pertemuan_2.Soal;
+package Pertemuan_2.Soal;
 
 import java.util.Scanner;
 

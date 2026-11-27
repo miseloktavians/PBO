@@ -1,4 +1,4 @@
-package pertemuan_8.Quiz.Soal_3;
+package Pertemuan_8.Quiz.Soal_3;
 
 class CollegeStudent extends Student {
     String jurusan = "Teknik Informatika";

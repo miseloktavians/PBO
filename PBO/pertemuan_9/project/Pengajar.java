@@ -1,4 +1,4 @@
-package pertemuan_9.project;
+package Pertemuan_9.project;
 
 // SUPERCLASS: Kelas induk yang menyimpan atribut dan method umum untuk semua jenis instruktur
 public class Pengajar {

@@ -1,4 +1,4 @@
-package pertemuan_8.Quiz.Soal_2;
+package Pertemuan_8.Quiz.Soal_2;
 
 public class MainFruits {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package pertemuan_1.Soal.Soal_2;
+package Pertemuan_1.Soal.Soal_2;
 
 public class LuasPersegiPanjang {
     // Fungsi

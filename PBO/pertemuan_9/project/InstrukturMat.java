@@ -1,4 +1,4 @@
-package pertemuan_9.project;
+package Pertemuan_9.project;
 
 // HIERARCHICAL INHERITANCE: Subclass pertama yang mewarisi kelas Pengajar
 public class InstrukturMat extends Pengajar {

@@ -1,4 +1,4 @@
-package pertemuan_9.versi_keseluruhan_project;
+package Pertemuan_9.versi_keseluruhan_project;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

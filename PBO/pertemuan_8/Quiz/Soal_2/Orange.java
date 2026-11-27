@@ -1,4 +1,4 @@
-package pertemuan_8.Quiz.Soal_2;
+package Pertemuan_8.Quiz.Soal_2;
 
 class Orange extends Fruits {
     public void rasaJeruk() {

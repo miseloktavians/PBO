@@ -1,4 +1,4 @@
-package pertemuan_8.Quiz.Soal_3;
+package Pertemuan_8.Quiz.Soal_3;
 
 class Student extends Person {
     String kampus = "Universitas Esa Unggul";

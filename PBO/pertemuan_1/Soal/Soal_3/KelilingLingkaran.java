@@ -1,4 +1,4 @@
-package pertemuan_1.Soal.Soal_3;
+package Pertemuan_1.Soal.Soal_3;
 
 public class KelilingLingkaran {
     // Method untuk menghitung luas lingkaran
