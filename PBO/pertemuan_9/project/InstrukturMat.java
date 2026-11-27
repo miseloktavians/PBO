@@ -18,5 +18,4 @@ public class InstrukturMat extends Pengajar {
     public String getFasilitas() {
         return "Matras Premium, Resistance Band, Yoga Block";
     }
-    // misal
 }
