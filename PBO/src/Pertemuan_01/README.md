@@ -104,23 +104,16 @@ Operating System (Multiplatform)
 ## Karakteristik PBO :
 
 1. Penekanan berada pada data dibandingkan prosedur.
-
 2. Program dibagi menjadi beberapa objek.
-
 3. Struktur data dirancang sedemikian rupa sehingga mencirikan objek.
-
 4. Fungsi-fungsi yang beroperasi pada data suatu objek diikat bersama dalam struktur data.
-
 5. Data disembunyikan dan tidak dapat diakses oleh fungsi eksternal.
-
 6. Objek dapat berkomunikasi satu sama lain melalui fungsi (method).
 
 ## Fitur PBO :
 
 1. Natural: Mengikuti cara berpikir manusia (manusia memandang dunianya sebagai kumpulan objek yang berinteraksi).
-
 2. Abstraction: Menjelaskan makna sebuah entitas secara cepat dan mudah.
-
 3. Encapsulation: Menggabungkan data (fields) dan perilaku (methods) bersama di dalam kelas (bundling).
 4. Information Hiding: Dapat menyembunyikan detail internal yang tidak perlu diketahui bagian lain.
 5. Modular: Objek merupakan entitas yang independen sehingga kode mudah dikelola.
@@ -156,21 +149,17 @@ Menyiapkan lingkungan pengembangan Java (JDK) serta IDE (NetBeans / Visual Studi
 
 Membuat program Java sederhana untuk menghitung:
 
-1. **Soal A — Luas Segitiga:**
-   $$
-   \text{Luas} = \frac{1}{2} \times \text{alas} \times \text{tinggi}
+1. **Soal A — Luas Segitiga :**
 
-   $$
-2. **Soal B — Luas Persegi Panjang:**
-   $$
-   \text{Luas} = \text{panjang} \times \text{lebar}
+	`Luas = panjang × lebar`
 
-   $$
-3. **Soal C — Keliling Lingkaran:**
-   $$
-   \text{Keliling} = 2 \times \pi \times r
+1. **Soal B — Luas Persegi Panjang :**
 
-   $$
+	`Luas = panjang × lebar`
+
+3. **Soal C — Keliling Lingkaran :**
+
+	`Keliling = 2 × π × r`
 
 ## 🗂️ Struktur File
 
