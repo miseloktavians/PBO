@@ -51,5 +51,7 @@ public class Quiz_1 {
 
         buku1.tampilan();
         buku2.tampilan();
+
+        input.close();
     }
 }
