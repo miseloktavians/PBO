@@ -1,0 +1,93 @@
+package Pertemuan_07.Quiz.Soal_2;
+
+// Soal 2 - Pengelolaan Nilai Mahasiswa
+
+class Mahasiswa {
+    private String nim, nama;
+    private double nilaiTugas;
+    private double nilaiUTS;
+    private double nilaiUAS;
+
+    public Mahasiswa(String nim, String nama, double nilaiTugas, double nilaiUTS, double nilaiUAS) {
+        this.nim = nim;
+        this.nama = nama;
+        setNilaiTugas(nilaiTugas);
+        setNilaiUTS(nilaiUTS);
+        setNilaiUAS(nilaiUAS);
+    }
+
+    public String getNim() {
+        return nim;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public double getNilaiTugas() {
+        return nilaiTugas;
+    }
+
+    public void setNilaiTugas(double nilaiTugas) {
+        if (nilaiTugas >= 0 && nilaiTugas <= 100) {
+            this.nilaiTugas = nilaiTugas;
+        } else {
+            System.out.println("Nilai Tugas tidak ada");
+        }
+    }
+
+    public double getNilaiUTS() {
+        return nilaiUTS;
+    }
+
+    public void setNilaiUTS(double nilaiUTS) {
+        if (nilaiUTS >= 0 && nilaiUTS <= 100) {
+            this.nilaiUTS = nilaiUTS;
+        } else {
+            System.out.println("Nilai UTS tidak ada");
+        }
+    }
+
+    public double getNilaiUAS() {
+        return nilaiUAS;
+    }
+
+    public void setNilaiUAS(double nilaiUAS) {
+        if (nilaiUAS >= 0 && nilaiUAS <= 100) {
+            this.nilaiUAS = nilaiUAS;
+        } else {
+            System.out.println("Nilai UAS tidak ada");
+        }
+    }
+
+    public double hitungNilaiAkhir() {
+        return (nilaiTugas * 0.3) + (nilaiUTS * 0.3) + (nilaiUAS * 0.4);
+    }
+
+    public String tentukanStatus() {
+        if (hitungNilaiAkhir() >= 60) {
+            return "LULUS";
+        } else {
+            return "TIDAK LULUS";
+        }
+    }
+
+    public void tampilan() {
+        System.out.println("=== HASIL PENILAIAN MAHASISWA ===");
+        System.out.println("NIM         : " + nim);
+        System.out.println("Nama        : " + nama);
+        System.out.println("Nilai Tugas : " + (int) nilaiTugas);
+        System.out.println("Nilai UTS   : " + (int) nilaiUTS);
+        System.out.println("Nilai UAS   : " + (int) nilaiUAS);
+        System.out.println();
+        System.out.println("Nilai Akhir : " + hitungNilaiAkhir());
+        System.out.println("Status      : " + tentukanStatus());
+    }
+}
+
+public class quiz2 {
+    public static void main(String[] args) {
+        Mahasiswa mhs = new Mahasiswa("20250801226", "Misel Oktaviani Putri", 85, 80, 90);
+        mhs.tampilan();
+    }
+}
